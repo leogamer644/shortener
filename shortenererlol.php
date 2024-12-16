@@ -10,5 +10,5 @@
 
     // Display the output from the C program
     echo "<h1>Result:</h1>";
-    echo "<pre>$output</pre>";
+    echo "<pre>shortener.leogamer644.com/".$output."</pre>";
 ?>
