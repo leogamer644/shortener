@@ -2,7 +2,7 @@ from flask import Flask, redirect, request, abort
 
 app = Flask(name)
 
-Load the URL mappings from urls.txt
+#Load the URL mappings from urls.txt
 def loadurlmappings():
     mappings = {}
     try:
