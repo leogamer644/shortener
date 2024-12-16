@@ -37,3 +37,9 @@ sudo systemctl enable redirector.service
 ```
 sudo systemctl start redirector.service
 ```
+
+```
+if you plan to do this change getchar to a while (1) {
+        sleep(1);
+    } so that it works as a service
+```
