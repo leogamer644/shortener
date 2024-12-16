@@ -84,10 +84,10 @@ int main(int argc,char *argv[]) {
 
         // Check if the URL already exists
         if (retrieve_short_url(input_url, short_url)) {
-            printf("Shortened URL: %s\n", short_url);
+            printf("%s\n", short_url);
         } else {
             generate_short_url(short_url);
             save_mapping(short_url, input_url);
-            printf("Shortened URL: %s\n", short_url);
+            printf("%s\n", short_url);
         }
 }

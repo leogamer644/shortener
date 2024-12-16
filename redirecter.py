@@ -1,6 +1,6 @@
 from flask import Flask, redirect, request, abort
 
-app = Flask(name)
+app = Flask(redirecter)
 
 #Load the URL mappings from urls.txt
 def loadurlmappings():
